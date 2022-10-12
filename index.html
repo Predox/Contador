@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Contador</title>
+</head>
+<body>
+    <div id="container">
+            <div class="cards">
+                <h2>1</h2>
+                <p class="contadores" id="contador-um">0</p>
+                <div class="container-botoes">
+                    <input class="button" type="button" id="umAddUm" value="+1" onclick="umMaisUm()">
+                    <input class="button" type="button" id="umAddDois" value="+2" onclick="umMaisDois()">
+                    <input class="button" type="button" id="umAddTres" value="+3" onclick="umMaisTres()">
+                    <input class="button" type="button" id="umDelUm" value="-" onclick="umMenosUm()">
+                </div>
+            </div>
+            <div class="cards">
+                <h2>2</h2>
+                <p class="contadores" id="contador-dois">0</p>
+                <div class="container-botoes">
+                    <input class="button" type="button" id="doisAddUm" value="+1" onclick="doisMaisUm()">
+                    <input class="button" type="button" id="doisAddDois" value="+2" onclick="doisMaisDois()">
+                    <input class="button" type="button" id="doisAddTres" value="+3" onclick="doisMaisTres()">
+                    <input class="button" type="button" id="doisDelUm" value="-" onclick="doisMenosUm()">
+                </div>
+            </div>
+    </div>
+    <input class="button" type="button" value="zerar" onclick="resetar()">
+</body>
+</html>

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #242424;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 10vh;
+}
+
+.cards{
+    display: flex;
+    width: 40vh;
+    height: 50vh;
+    background-color: #ffff;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px #000000; 
+}
+
+.container-botoes{
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    margin-top: 40vh;
+    gap: 2vh;
+}
+
+h2{
+    position: absolute;
+    color: rgba(100, 100, 100, 0.16);
+    margin: 0 0 0 15vh;
+    font-size: 30vh;
+    font-family: 'Russo One', sans-serif;
+}
+
+.button{
+    cursor: pointer;
+    border-radius: 2vh;
+    border: 2px solid #acacac;
+    box-shadow: 4px 4px 9px #181818;
+    width: 7vh;
+    height: 7vh;
+    color: #ffff;
+    font-size: 2vh;
+    font-family: 'Russo One', sans-serif;
+    background-color: rgb(40, 40, 40);
+}
+
+.contadores{
+    font-size: 30vh;
+    position: absolute;
+    margin: 0px 0 0 70px;
+    font-family: 'Russo One', sans-serif;
+}
+
+#nomeDoGrupo{
+    margin-right: 30vh;
+    margin-left: 6vh;
+    width: 40vh;
+    margin-bottom: 10px;
+    font-size: 5vh;
+    font-family: 'Russo One', sans-serif;
+    color: #ffff;
+    background-color: transparent;
+    border: none;
+}
+
+#nomeDoGrupo2{
+    width: 40vh;
+    margin-bottom: 10px;
+    font-size: 5vh;
+    font-family: 'Russo One', sans-serif;
+    color: #ffff;
+    background-color: transparent;
+    border: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    }
+
